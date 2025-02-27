@@ -26,7 +26,7 @@ alert(`Hola ${agregarNombre()}, tienes ${agregarEdad()} años y ya estás aprend
 Y luego, dependiendo de la respuesta, debería mostrar uno de los siguientes mensajes:
 1 > ¡Muy bien! Sigue estudiando y tendrás mucho éxito.
 2 > Oh, qué pena... ¿Ya intentaste aprender otros lenguajes?*/
-let lenguajeConsulta = "Java";
+let lenguajeConsulta = lenguaje;
 let pregunta = prompt(`¿Te gusta estudiar ${lenguajeConsulta}? Responde con el número 1 para SÍ o 2 para NO.`);
 let respuesta = document.getElementById("respuestaLenguaje");
 if(pregunta == 1) {
